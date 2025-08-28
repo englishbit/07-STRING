@@ -15,4 +15,5 @@ int main(){
 
     cout<<"No Repeted character found"<<endl;
     return 0;
+
 }
