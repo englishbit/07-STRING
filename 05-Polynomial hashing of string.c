@@ -3,6 +3,7 @@
 #define BASE 31
 int main(){
     int n;
+    //logic for taking input
     scanf("%d",&n);
     
     long long hash_val=0;
@@ -30,4 +31,5 @@ int main(){
 
     return 0;
 }
+
 
