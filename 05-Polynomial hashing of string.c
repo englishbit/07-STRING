@@ -28,24 +28,5 @@ int main(){
     
     printf("%lld\n",hash_val);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
