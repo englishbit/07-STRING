@@ -15,6 +15,8 @@ int main(){
         printf("Invalid input\n");
         return -1;
     }
+
+    //logic for taking input
     char string[n+1];
     scanf("%s",string);
 
@@ -31,5 +33,6 @@ int main(){
 
     return 0;
 }
+
 
 
