@@ -7,6 +7,7 @@ int main(){
     getline(cin,s1);
     getline(cin,s2);
 
+    //logic for main idea and output
     for(int i=0;i<min(s1.length(),s2.length());i++){
         if(s1[i]<s2[i]){
             cout<<"s2 is larger"<<endl;
@@ -44,3 +45,4 @@ int main(){
     return 0;
 
 }
+
