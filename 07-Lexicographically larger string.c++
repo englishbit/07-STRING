@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     string s1;
     string s2;
-
+    //logic for taking input
     getline(cin,s1);
     getline(cin,s2);
 
@@ -42,4 +42,5 @@ int main(){
 
 
     return 0;
+
 }
