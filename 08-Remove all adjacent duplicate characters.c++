@@ -5,7 +5,7 @@ int main(){
     //logic for taking input
     string s;
     cin>>s;
-    
+    //logic for main idea
     stack<char>stak;
     stak.push(s[0]);
     for(int i=1;i<s.length();i++){
@@ -26,4 +26,5 @@ int main(){
     return 0;
 
 }
+
 
