@@ -2,8 +2,10 @@
 #include<stack>
 using namespace std;
 int main(){
+    //logic for taking input
     string s;
     cin>>s;
+    
     stack<char>stak;
     stak.push(s[0]);
     for(int i=1;i<s.length();i++){
@@ -15,6 +17,7 @@ int main(){
         }
     }
 
+
     while(!stak.empty()){
         cout<<stak.top()<<" ";
         stak.pop();
@@ -23,3 +26,4 @@ int main(){
     return 0;
 
 }
+
