@@ -17,7 +17,7 @@ int main(){
         }
     }
 
-
+    //logic for output
     while(!stak.empty()){
         cout<<stak.top()<<" ";
         stak.pop();
@@ -26,5 +26,6 @@ int main(){
     return 0;
 
 }
+
 
 
